@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DETRAN</title>
+    <link rel="stylesheet" href="SMultas.css" />
+  </head>
+
+  <body>
+    <main>
+      <h1><span>Sis</span>tema de multas</h1>
+      <p>Qual é o seu nome?</p>
+      <input type="text" name="nome" id="nome" /> <br />
+      <p class="erro-texto" id="erro-nome"></p>
+      <p>Qual o seu CPF?</p>
+      <input type="number" name="cpf" id="cpf" />
+      <p class="erro-texto" id="erro-cpf"></p>
+      <p>Velocidade do carro:</p>
+      <input type="number" name="txtvel" id="txtvel" /> Km/h.
+      <input type="button" value="Verificar" id="botao" onclick="calcular()" />
+      <p class="erro-texto" id="erro-txtv"></p>
+      <div id="res"></div>
+    </main>
+  </body>
+  <script src="SMultas.js"></script>
+</html>

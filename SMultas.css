@@ -1,0 +1,70 @@
+@keyframes degrade-animado {
+  0% {
+    background-position-x: 0%;
+  }
+  100% {
+    background-position-x: 100%;
+  }
+}
+body {
+  background-image: linear-gradient(
+    to left,
+    rgb(18, 27, 36),
+    rgb(22, 49, 78),
+    rgb(6, 56, 109)
+  );
+  background-size: 500% 100%;
+  display: flex;
+  background-attachment: fixed;
+  height: 100vh;
+  animation: degrade-animado 3s infinite alternate;
+}
+main {
+  margin: auto;
+  padding: 15px;
+  height: 58vh;
+  background-color: rgb(255, 255, 255);
+  background-attachment: fixed;
+  box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.39);
+  background-position: left top;
+  padding: 80px;
+  border-radius: 10px;
+}
+main > p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.erro-texto {
+  font-size: 10px;
+  margin-top: 2px;
+
+  color: red;
+  font-weight: bold;
+}
+h1 {
+  font-size: 2.3em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.418);
+}
+input {
+  border: 1.4px solid rgba(4, 45, 88, 0.836);
+  border-radius: 10px;
+}
+h1,
+input,
+button {
+  padding: 8px;
+  margin: auto;
+  max-width: 800px;
+  position: static;
+}
+input#botao {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input#botao:hover {
+  background-color: rgba(4, 51, 102, 0.342);
+  cursor: pointer;
+}
+span {
+  color: rgb(9, 36, 65);
+  text-shadow: 3px 3px 3px rgba(20, 75, 75, 0.514);
+}
