@@ -36,7 +36,7 @@ function calcular() {
 
   var vel = Number(txtv.value);
   res.innerHTML = `<p>Sua velocidade atual é de <strong>${vel}</strong> Km/h.</p>`;
-  if (vel > 60) {
+  if (vel > 80) {
     res.innerHTML += `<p>Olá, ${nome.value}! Você está <strong>MULTADO</strong> por excesso de velocidade! <br> Iremos consultar seu CPF: ${cpf.value}</p>`;
     res.style.color = "red";
   } else {

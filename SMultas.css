@@ -6,6 +6,10 @@
     background-position-x: 100%;
   }
 }
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
 body {
   background-image: linear-gradient(
     to left,
@@ -67,4 +71,5 @@ input#botao:hover {
 span {
   color: rgb(9, 36, 65);
   text-shadow: 3px 3px 3px rgba(20, 75, 75, 0.514);
+  font-weight: bolder;
 }
